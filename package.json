@@ -4,9 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "gulp webpack",
-    "deploy": "gh-pages -d dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -27,6 +25,5 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
-  },
-  "homepage": "http://meteor88.github.io/react_props_state_sample_app/"
+  }
 }
